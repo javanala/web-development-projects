@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Advanced Search</title>
+  </head>
+  <body class="container">
+    <div>
+      <ul class="navbar">
+        <li class="navbar-item">
+          <a href="index.html">Google Search</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h1 class="title">Advanced Search</h1>
+    </div>
+    <div class="line"></div>
+
+   <div class="center-item">
+    <div class="search-container">
+      <div class="find">
+        <span>Find pages with...</span>
+      </div>
+      <form class="advanced-search" action="https://www.google.com/search">
+        <div class="row-input">
+          <div class="left">
+            <p>All This word</p>
+          </div>
+          <div class="right">
+            <input type="text" name="as_q" class="r-input" />
+          </div>
+        </div>
+
+        <div class="row-input">
+          <div class="left">
+            <p>this exact word or phrase:</p>
+          </div>
+          <div class="right">
+            <input type="text" name="as_epq" class="r-input" />
+          </div>
+        </div>
+        <div class="row-input">
+          <div class="left">
+            <p>any of these words:</p>
+          </div>
+          <div class="right">
+            <input type="text" name="as_oq" class="r-input" />
+          </div>
+        </div>
+        <div class="row-input">
+          <div class="left">
+            <p>none of these words:</p>
+          </div>
+          <div class="right">
+            <input type="text" name="as_eq" class="r-input" />
+          </div>
+        </div>
+        <div class="btn-div">
+          <div class="left"></div>
+          <div class="right">
+            <input type="submit" value="Advanced Search" class="search-btn" />
+          </div>
+        </div>
+      </form>
+    </div>
+   </div>
+  </body>
+</html>
